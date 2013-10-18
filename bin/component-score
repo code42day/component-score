@@ -4,7 +4,6 @@ var program = require('commander');
 var score = require('..');
 var json = require('../package.json');
 
-
 program
   .version(json.version)
   .description(json.description)
