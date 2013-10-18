@@ -1,0 +1,6 @@
+.travis.yml
+.jshintrc
+License.txt
+History.md
+test
+Makefile

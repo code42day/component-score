@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "A component command plugin to verify quality of the components",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "component-score": "bin/component-score"
+  },
   "scripts": {
     "test": "make lint"
   },
@@ -19,5 +23,14 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/code42day/component-score/issues"
+  },
+  "dependencies": {
+    "component": "~0.18.0",
+    "commander": "~2.0.0",
+    "batch": "~0.5.0",
+    "to-function": "~1.2.0"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.11"
   }
 }

@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var score = require('..');
+var json = require('../package.json');
+
+
+program
+  .version(json.version)
+  .description(json.description)
+  .usage('<name>')
+  .parse(process.argv);
+
+
+var name = program.args[0];
+
+if (!name) {
+  program.help();
+  return;
+}
+
+score(name, function(err) {
+  if (err) {
+    console.error(err);
+  }
+});

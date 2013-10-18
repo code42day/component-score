@@ -2,9 +2,5 @@
   "undef": true,
   "unused": true,
   "laxbreak": true,
-  "globals": {
-    "exports": false,
-    "require": false,
-    "module": false
-  }
+  "node": true
 }
