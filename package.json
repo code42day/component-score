@@ -1,0 +1,23 @@
+{
+  "name": "component-score",
+  "version": "0.0.0",
+  "description": "A component command plugin to verify quality of the components",
+  "main": "index.js",
+  "scripts": {
+    "test": "make lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/code42day/component-score"
+  },
+  "keywords": [
+    "component",
+    "command",
+    "plugin"
+  ],
+  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code42day/component-score/issues"
+  }
+}
