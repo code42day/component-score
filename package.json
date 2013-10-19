@@ -1,6 +1,6 @@
 {
   "name": "component-score",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A component command plugin to verify quality of the components",
   "main": "index.js",
   "preferGlobal": true,
