@@ -12,18 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/code42day/component-score"
+    "url": "git://github.com/pirxpilot/component-score"
   },
   "keywords": [
     "component",
     "command",
     "plugin"
   ],
-  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "author": "Damian Krzeminski <pirxpilot@furkot.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/code42day/component-score/issues"
-  },
   "dependencies": {
     "component": "~0",
     "commander": "~2",

@@ -11,11 +11,11 @@ great project.
 
 To check a component:
 
-    component score repo/name
+    component-score repo/name
 
 For example:
 
-    component-score code42day/plumper
+    component-score pirxpilot/plumper
 
       Total score: 66%
         ~ No demo page.
